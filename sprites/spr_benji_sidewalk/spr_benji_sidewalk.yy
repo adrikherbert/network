@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 7,
+  "origin": 9,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -24,12 +24,12 @@
   "gridX": 2,
   "gridY": 2,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"eaf3ade4-a0de-4a5c-89a5-386a0fd9b175","path":"sprites/spr_benji_sidewalk/spr_benji_sidewalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"eaf3ade4-a0de-4a5c-89a5-386a0fd9b175","path":"sprites/spr_benji_sidewalk/spr_benji_sidewalk.yy",},"LayerId":{"name":"8947702a-9c5e-4608-b8b8-9ebf1fd3c4f0","path":"sprites/spr_benji_sidewalk/spr_benji_sidewalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_benji_sidewalk","path":"sprites/spr_benji_sidewalk/spr_benji_sidewalk.yy",},"resourceVersion":"1.0","name":"eaf3ade4-a0de-4a5c-89a5-386a0fd9b175","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"c2fa1dcb-9c3a-4dbe-903b-72592175a56a","path":"sprites/spr_benji_sidewalk/spr_benji_sidewalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"c2fa1dcb-9c3a-4dbe-903b-72592175a56a","path":"sprites/spr_benji_sidewalk/spr_benji_sidewalk.yy",},"LayerId":{"name":"8947702a-9c5e-4608-b8b8-9ebf1fd3c4f0","path":"sprites/spr_benji_sidewalk/spr_benji_sidewalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_benji_sidewalk","path":"sprites/spr_benji_sidewalk/spr_benji_sidewalk.yy",},"resourceVersion":"1.0","name":"c2fa1dcb-9c3a-4dbe-903b-72592175a56a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"eaf3ade4-a0de-4a5c-89a5-386a0fd9b175","path":"sprites/spr_benji_sidewalk/spr_benji_sidewalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"eaf3ade4-a0de-4a5c-89a5-386a0fd9b175","path":"sprites/spr_benji_sidewalk/spr_benji_sidewalk.yy",},"LayerId":{"name":"8947702a-9c5e-4608-b8b8-9ebf1fd3c4f0","path":"sprites/spr_benji_sidewalk/spr_benji_sidewalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_benji_sidewalk","path":"sprites/spr_benji_sidewalk/spr_benji_sidewalk.yy",},"resourceVersion":"1.0","name":"eaf3ade4-a0de-4a5c-89a5-386a0fd9b175","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_benji_sidewalk","path":"sprites/spr_benji_sidewalk/spr_benji_sidewalk.yy",},
@@ -44,8 +44,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e0e7f8a3-70f2-409e-aebe-00654a13da7a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eaf3ade4-a0de-4a5c-89a5-386a0fd9b175","path":"sprites/spr_benji_sidewalk/spr_benji_sidewalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"a75a1e7f-3067-447e-bfee-d9fa8be8b541","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c2fa1dcb-9c3a-4dbe-903b-72592175a56a","path":"sprites/spr_benji_sidewalk/spr_benji_sidewalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a75a1e7f-3067-447e-bfee-d9fa8be8b541","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c2fa1dcb-9c3a-4dbe-903b-72592175a56a","path":"sprites/spr_benji_sidewalk/spr_benji_sidewalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e0e7f8a3-70f2-409e-aebe-00654a13da7a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eaf3ade4-a0de-4a5c-89a5-386a0fd9b175","path":"sprites/spr_benji_sidewalk/spr_benji_sidewalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -59,7 +59,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 11,
-    "yorigin": 35,
+    "yorigin": 33,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_benji_sidewalk","path":"sprites/spr_benji_sidewalk/spr_benji_sidewalk.yy",},

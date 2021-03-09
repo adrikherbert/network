@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_benji",
+    "path": "sprites/spr_benji/spr_benji.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
