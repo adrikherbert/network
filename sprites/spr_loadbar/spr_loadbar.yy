@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"188a17b2-66d3-4969-9cbf-ac3845903f22","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Misc",
+    "path": "folders/Sprites/Misc.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_loadbar",

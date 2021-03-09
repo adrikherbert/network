@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3947a844-57c6-424c-8c19-f813c7c1f62c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Warps and Walls",
+    "path": "folders/Sprites/Warps and Walls.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_collision_tile",

@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Warps and Walls",
+    "path": "folders/Objects/Controls/Warps and Walls.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_teleport_bedroom",

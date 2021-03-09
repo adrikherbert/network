@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Room",
+    "path": "folders/Objects/Room.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_benji_house_exp",

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"808b0796-e2b7-4af9-9572-0100327c2028","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Room",
+    "path": "folders/Sprites/Room.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_benji_house",
