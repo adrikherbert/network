@@ -8,6 +8,9 @@ load_block_x = 250;
 draw_alpha = 1.00;
 change_alpha = 0;
 step = -1;
+docount = false;
+count = 0;
+act1 = false;
 global.intro = true;
 
 instance_deactivate_layer("Instances");

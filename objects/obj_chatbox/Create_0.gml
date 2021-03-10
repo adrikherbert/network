@@ -5,11 +5,11 @@ print = "";
 
 next = 0;
 
-box_width = 750;
-text_height = 32;
+box_width = 100;
+text_height = 16;
 
-x = 283;
-y = 450;
+x = 0;
+y = 0;
 
 draw_alpha = 0;
 

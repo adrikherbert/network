@@ -69,5 +69,33 @@ switch (step) {
 		instance_activate_layer("Instances");
 		obj_camera.trigger += 1;
 		change_alpha = -0.2;
+		obj_benji.movable = false;
+		obj_benji.stop_sprite = spr_benji;
+		obj_benji.stop_index = 3;
+		docount = true;
 		break;
 }
+
+if (docount) count += 1;
+else count = 0;
+
+if (count == room_speed * 3 && !act1) {
+	chatbox = instance_create_depth(0, 0, 0, obj_chatbox);
+	chatbox.x = 265;
+	chatbox.y = 400
+	chatbox.text[0] = "benji.";
+	chatbox.text[1] = "Benji!!";
+	chatbox.voice = s_robin_voice;
+	count = 0;
+	act1 = true;
+}
+
+if (count == room_speed * 8) {
+	chatbox.l = 0;
+	chatbox.next++;
+	chatbox.voice = s_robin_voice_yell;
+	obj_benji.movable = true;
+	docount = false;
+}
+
+if (act1 && obj_benji.sprite_index != spr_benji) instance_destroy(chatbox);

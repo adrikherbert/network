@@ -2,12 +2,13 @@
 // You can write your code in this editor
 
 draw_set_alpha(draw_alpha);
+draw_set_color(c_black);
 
 //draw textbox
-draw_sprite(spr_textbox, 0, x, y);
+draw_sprite(spr_chatbox, 0, x, y);
 
 //draw text
-draw_set_font(Textbox);
+draw_set_font(Chatbox);
 draw_set_halign(fa_left);
 
 if (l < string_length(text[next])) {
@@ -24,6 +25,6 @@ if (l < string_length(text[next])) {
 
 print = string_copy(text[next], 0, l);
 
-draw_text_ext(x + 30, y + 30, print, text_height, box_width);
+draw_text_ext(x + 15, y + 5, print, text_height, box_width);
 
 draw_set_alpha(1);
