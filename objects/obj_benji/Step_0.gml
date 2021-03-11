@@ -24,11 +24,6 @@ if (movable) {
 	}
 
 	benji_walk_animate();
-
-	if (place_meeting(x, y, obj_teleport)) {
-	
-		warp(obj_teleport.dest, obj_teleport.dest_dir);
-	}
 } else {
 	sprite_index = stop_sprite;
 	image_index = stop_index;

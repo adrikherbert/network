@@ -11,6 +11,7 @@ step = -1;
 docount = false;
 count = 0;
 act1 = false;
+act2 = false;
 global.intro = true;
 
 instance_deactivate_layer("Instances");

@@ -25,6 +25,6 @@ if (l < string_length(text[next])) {
 
 print = string_copy(text[next], 0, l);
 
-draw_text_ext(x + 15, y + 5, print, text_height, box_width);
+draw_text_ext(x + 25, y + 10, print, text_height, box_width - 28);
 
 draw_set_alpha(1);
