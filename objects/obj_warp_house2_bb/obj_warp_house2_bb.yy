@@ -1,10 +1,16 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_teleport_tile",
+    "path": "sprites/spr_teleport_tile/spr_teleport_tile.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_warp",
+    "path": "objects/obj_warp/obj_warp.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -18,7 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_warp_house2_bb","path":"objects/obj_warp_house2_bb/obj_warp_house2_bb.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -27,7 +33,7 @@
     "path": "folders/Objects/Controls/Warps and Walls.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_warp",
+  "name": "obj_warp_house2_bb",
   "tags": [],
   "resourceType": "GMObject",
 }

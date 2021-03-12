@@ -4,4 +4,7 @@
 place = -1;
 dir = 0;
 
+dex = -1;
+dey = -1;
+
 image_alpha = 0;

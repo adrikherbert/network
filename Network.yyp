@@ -43,6 +43,7 @@
     {"id":{"name":"obj_blackout","path":"objects/obj_blackout/obj_blackout.yy",},"order":2,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":0,},
     {"id":{"name":"obj_warp_bedroom","path":"objects/obj_warp_bedroom/obj_warp_bedroom.yy",},"order":5,},
+    {"id":{"name":"warp_set_loc","path":"scripts/warp_set_loc/warp_set_loc.yy",},"order":4,},
     {"id":{"name":"Textbox","path":"fonts/Textbox/Textbox.yy",},"order":1,},
     {"id":{"name":"Chatbox","path":"fonts/Chatbox/Chatbox.yy",},"order":2,},
     {"id":{"name":"spr_gwen_bedroom","path":"sprites/spr_gwen_bedroom/spr_gwen_bedroom.yy",},"order":4,},
@@ -68,6 +69,7 @@
     {"id":{"name":"R_Benji_House","path":"rooms/R_Benji_House/R_Benji_House.yy",},"order":2,},
     {"id":{"name":"benji_walk_animate","path":"scripts/benji_walk_animate/benji_walk_animate.yy",},"order":1,},
     {"id":{"name":"obj_robin","path":"objects/obj_robin/obj_robin.yy",},"order":0,},
+    {"id":{"name":"obj_warp_house2_bb","path":"objects/obj_warp_house2_bb/obj_warp_house2_bb.yy",},"order":10,},
     {"id":{"name":"R_Bedroom_Intro","path":"rooms/R_Bedroom_Intro/R_Bedroom_Intro.yy",},"order":1,},
   ],
   "Options": [

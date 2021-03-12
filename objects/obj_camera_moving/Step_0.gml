@@ -22,4 +22,12 @@ if (y != target_y) {
 
 y = clamp(y, 0, room_height - cam_height);
 
+
+if (doset) {
+	x = 510;
+	y = sety - (cam_height / 2) - 16;
+	
+	doset = false;
+}
+
 camera_set_view_pos(camera, x, y);

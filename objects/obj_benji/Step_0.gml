@@ -1,11 +1,17 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (warpx != -1 && warpy != -1) {
-		x = warpx;
-		y = warpy;
-		warpx = -1;
-		warpy = -1;
+
+if (global.warpx != -1 && global.warpy != -1) {
+		x = global.warpx;
+		y = global.warpy;
+		global.warpx = -1;
+		global.warpy = -1;
+		
+		if (instance_exists(obj_camera_moving)) {
+			obj_camera_moving.doset = true;
+			obj_camera_moving.sety = y;
+		}
 }
 
 if (movable) {
@@ -31,6 +37,8 @@ if (movable) {
 	}
 
 	benji_walk_animate();
+	
+	if (place_meeting(x, y, obj_warp)) warp_set_loc(obj_warp.place, obj_warp.dex, obj_warp.dey);
 } else {
 	sprite_index = stop_sprite;
 	image_index = stop_index;

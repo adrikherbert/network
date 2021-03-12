@@ -1,10 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-place = R_Bedroom;
-dir = 0;
-
-dex = -1;
-dey = -1;
-
-image_alpha = 0;
+if (place_meeting(x, y, obj_benji)) room_goto(place);

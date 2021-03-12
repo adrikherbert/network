@@ -6,6 +6,10 @@ cam_height = camera_get_view_height(camera);
 x = 510;
 lr = false;
 
+doset = false;
+setx = -1;
+sety = -1;
+
 
 /*
 x = obj_benji.x - (cam_width / 2);
