@@ -14,6 +14,8 @@ og_y = y;
 walk_to_x = 0;
 walk_to_y = 0;
 dowalk = false;
+start1 = false;
+start2 = false;
 
 robin[0] = "Come here."
 

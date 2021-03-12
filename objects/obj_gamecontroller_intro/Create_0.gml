@@ -13,5 +13,6 @@ count = 0;
 act1 = false;
 act2 = false;
 global.intro = true;
+global.convo_completed = false;
 
 instance_deactivate_layer("Instances");

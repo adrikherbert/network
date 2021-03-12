@@ -39,6 +39,11 @@ switch (trigger) {
 		break;
 	case 11:
 		obj_benji.movable = true;
+		global.convo_completed = true;
+		trigger += 1;
+		break;
+	case 13:
+		layer_destroy_instances(layer_get_id("Controllers_3"));
 		trigger += 1;
 		break;
 }

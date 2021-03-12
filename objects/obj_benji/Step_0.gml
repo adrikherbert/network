@@ -1,6 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (warpx != -1 && warpy != -1) {
+		x = warpx;
+		y = warpy;
+		warpx = -1;
+		warpy = -1;
+}
+
 if (movable) {
 
 	// Collect input from player

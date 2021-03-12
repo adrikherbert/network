@@ -19,6 +19,7 @@ switch (trigger) {
 		txtbox2.origin = self;
 		txtbox2.voice = s_robin_voice;
 		docount = false;
+		start2 = true;
 		
 		for (var i = 0; i < 9; i++)
 		{
@@ -59,10 +60,11 @@ switch (trigger) {
 		break;
 }
 
-if (keyboard_check_pressed(vk_space) && trigger == 2) {
+if (keyboard_check_pressed(vk_space) && trigger == 2 && !start1) {
 	instance_destroy(txtbox);
+	start1 = true;
 	obj_gamecontroller_house.trigger += 1;
-} else if (keyboard_check_pressed(vk_space) && !destroyed && instance_exists(txtbox2)) {
+} else if (keyboard_check_pressed(vk_space) && !destroyed && start2) {
 	txtbox2.l = 0;
 	txtbox2.next++;
 	

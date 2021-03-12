@@ -6,6 +6,9 @@ movable = true;
 stop_sprite = spr_benji;
 stop_index = 0;
 
+warpx = -1;
+warpy = -1;
+
 image_speed = 0;
 
 image_xscale = 3;
