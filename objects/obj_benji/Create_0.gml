@@ -6,6 +6,8 @@ movable = true;
 stop_sprite = spr_benji;
 stop_index = 0;
 
+global.stopdex = -1;
+
 warpx = -1;
 warpy = -1;
 

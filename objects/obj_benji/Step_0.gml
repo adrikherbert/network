@@ -42,5 +42,6 @@ if (movable) {
 } else {
 	sprite_index = stop_sprite;
 	image_index = stop_index;
+	if (global.stopdex != -1) image_index = global.stopdex; global.stopdex = -1;
 	image_speed = 0;	
 }

@@ -14,6 +14,8 @@ act1 = false;
 act2 = false;
 global.intro = true;
 global.convo_completed = false;
+global.key = false;
+global.unlocked = false;
 global.warpx = -1;
 global.warpy = -1;
 
