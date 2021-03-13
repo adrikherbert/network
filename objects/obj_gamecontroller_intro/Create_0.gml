@@ -19,4 +19,4 @@ global.unlocked = false;
 global.warpx = -1;
 global.warpy = -1;
 
-instance_deactivate_layer("Instances");
+instance_deactivate_layer(layer_get_id("Instances"));

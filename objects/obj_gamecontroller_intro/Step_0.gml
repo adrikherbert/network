@@ -66,7 +66,7 @@ switch (step) {
 		load_block_x += 74;
 		break;
 	case 400:
-		instance_activate_layer("Instances");
+		instance_activate_layer(layer_get_id("Instances"));
 		obj_camera.trigger += 1;
 		change_alpha = -0.2;
 		obj_benji_bedroom_exp.sprite_index = spr_benji_bedroom_dark;
