@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-place = R_Benji_House_2;
+if (global.convo_completed) place = R_Benji_House_2;
+else place = R_Benji_House;
 dir = 0;
 
 dex = -1;

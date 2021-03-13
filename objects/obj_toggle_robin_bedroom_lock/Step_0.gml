@@ -8,11 +8,19 @@ if (activate) {
 		txtbox = instance_create_depth(0, 0, 1, obj_textbox);
 		txtbox.voice = s_generic_voice;
 		txtbox.text[0] = "Probably shouldn't go into mom's room before talking to her.";
+		
 		if (global.convo_completed) {
+			if (!beensaid) {
+				obj_benji.movable = true;
+				instance_destroy(txtbox);
+				instance_destroy();
+			}
+			
 			txtbox.text[1] = "Oh... I already said that? Oops."
 			txtbox.text[2] = "Carry on."
 		}
 		
+		beensaid = true;
 		act = true;
 	}
 	

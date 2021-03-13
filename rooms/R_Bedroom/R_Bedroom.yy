@@ -17,6 +17,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_camera2","path":"objects/obj_camera2/obj_camera2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_7B8AC1BC","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_warp_house2_bb","path":"objects/obj_warp_house2_bb/obj_warp_house2_bb.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":1184.0,"resourceVersion":"1.0","name":"inst_4B9F4B3F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_gc_bedroom","path":"objects/obj_gc_bedroom/obj_gc_bedroom.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":0.0,"resourceVersion":"1.0","name":"inst_57CDC7D8","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_dynamo_toggle","path":"objects/obj_dynamo_toggle/obj_dynamo_toggle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1024.0,"y":1056.0,"resourceVersion":"1.0","name":"inst_4D906D","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":-300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Controllers","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":-200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Fade","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"collision_tiles","path":"tilesets/collision_tiles/collision_tiles.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":86,"SerialiseHeight":96,"TileSerialiseData":[
@@ -140,6 +141,7 @@
     {"name":"inst_4B9F4B3F","path":"rooms/R_Bedroom/R_Bedroom.yy",},
     {"name":"inst_5F257190","path":"rooms/R_Bedroom/R_Bedroom.yy",},
     {"name":"inst_57CDC7D8","path":"rooms/R_Bedroom/R_Bedroom.yy",},
+    {"name":"inst_4D906D","path":"rooms/R_Bedroom/R_Bedroom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
