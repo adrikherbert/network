@@ -13,6 +13,24 @@ switch (trigger) {
 		docount = true;
 		trigger += 1;
 		break;
+	case 7:
+		docount = true;
+		trigger += 1;
+		break;
+	case 9:
+		obj_dynamo.sprite_index = spr_dynamo_idle;
+		obj_dynamo.x -= 2;
+		obj_dynamo.y -= 2;
+		
+		obj_dynamo.trigger += 1;
+		
+		trigger += 1;
+		break;
+	case 11:
+		audio_play_sound(s_network, 0, false);
+		docount = true;
+		trigger += 1;
+		break;
 }
 
 // DYNAMO APPEAR
@@ -60,6 +78,24 @@ if (count > 59 && count % 5 == 0 && trigger == 6) {
 		docount = false; 
 		trigger += 1;
 	}
+}
+
+// WAIT TO IDLE
+if (count > room_speed && trigger == 8) {
+	docount = false; 
+	trigger += 1;
+}
+
+if (count == 330 && trigger == 12) {
+	drawtext = instance_create_depth(0, 0, 0, obj_drawtext);
+	drawtext.text = "NETWORK";
+}
+
+if (count == 993 && trigger == 12) {
+	instance_destroy(drawtext);
+	instance_destroy(obj_coverbox);
+	blackout = instance_create_depth(0, 0, 0, obj_blackout);
+	docount = false;
 }
 
 if (docount) count++;
