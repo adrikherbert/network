@@ -27,7 +27,7 @@ switch (trigger) {
 		trigger += 1;
 		break;
 	case 11:
-		audio_play_sound(s_network, 0, false);
+		audio_play_sound(s_network_start, 100, false);
 		docount = true;
 		trigger += 1;
 		break;
@@ -86,14 +86,17 @@ if (count > room_speed && trigger == 8) {
 	trigger += 1;
 }
 
-if (count == 330 && trigger == 12) {
+if (count == 233 && trigger == 12) {
+	blackout0 = instance_create_depth(0, 0, 10, obj_blackout);
 	drawtext = instance_create_depth(0, 0, 0, obj_drawtext);
 	drawtext.text = "NETWORK";
+	drawtext.col = c_white;
 }
 
-if (count == 993 && trigger == 12) {
+if (count == 466 && trigger == 12) {
 	instance_destroy(drawtext);
 	instance_destroy(obj_coverbox);
+	instance_destroy(blackout0);
 	blackout = instance_create_depth(0, 0, 0, obj_blackout);
 	docount = false;
 }

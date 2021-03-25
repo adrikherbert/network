@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "s_network.wav",
-  "duration": 19.08906,
+  "soundFile": "s_network_start.wav",
+  "duration": 8.032029,
   "parent": {
     "name": "Themes",
     "path": "folders/Sounds/Themes.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_network",
+  "name": "s_network_start",
   "tags": [],
   "resourceType": "GMSound",
 }
