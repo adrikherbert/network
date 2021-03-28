@@ -124,8 +124,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"R_Bedroom","path":"rooms/R_Bedroom/R_Bedroom.yy",},},
     {"roomId":{"name":"R_Bedroom_Intro","path":"rooms/R_Bedroom_Intro/R_Bedroom_Intro.yy",},},
+    {"roomId":{"name":"R_Bedroom","path":"rooms/R_Bedroom/R_Bedroom.yy",},},
     {"roomId":{"name":"R_Benji_House","path":"rooms/R_Benji_House/R_Benji_House.yy",},},
     {"roomId":{"name":"R_Benji_House_2","path":"rooms/R_Benji_House_2/R_Benji_House_2.yy",},},
     {"roomId":{"name":"R_Robin_Bedroom","path":"rooms/R_Robin_Bedroom/R_Robin_Bedroom.yy",},},

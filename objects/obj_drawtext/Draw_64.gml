@@ -3,5 +3,5 @@
 draw_set_color(col);
 draw_set_halign(fa_center);
 draw_set_valign(fa_top);
-draw_set_font(Bold);
+draw_set_font(font);
 draw_text(683, 300, text);
