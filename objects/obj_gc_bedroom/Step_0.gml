@@ -97,8 +97,20 @@ if (count == 466 && trigger == 12) {
 	instance_destroy(drawtext);
 	instance_destroy(obj_coverbox);
 	instance_destroy(blackout0);
-	blackout = instance_create_depth(0, 0, 0, obj_blackout);
-	docount = false;
+	audio_play_sound(s_crunch, 10, false);
+	
+	instance_deactivate_all(true);
+	
+	txtbox = instance_create_depth(0, 0, -1000, obj_textbox);
+	txtbox.voice = s_dynamo_1;
+	txtbox.text[0] = "And . . . !";
+	count = 0;
+	trigger += 1;
+}
+
+if (keyboard_check_pressed(vk_space) && trigger == 13) {
+	instance_deactivate_all(false);
+	room_goto(Forest_1);
 }
 
 if (docount) count++;

@@ -18,25 +18,8 @@ if (l < string_length(text[next])) {
 	if ((l % 3 == 0) && (voice != noone)) {
 
 		if (voice == s_dynamo_1) {
-			var num = irandom_range(1, 5);
-			
-			switch (num) {
-				case 1:
-					audio_play_sound(s_dynamo_1, 0, false);
-					break;
-				case 2:
-					audio_play_sound(s_dynamo_2, 0, false);
-					break;
-				case 3:
-					audio_play_sound(s_dynamo_3, 0, false);
-					break;
-				case 4:
-					audio_play_sound(s_dynamo_4, 0, false);
-					break;
-				case 5:
-					audio_play_sound(s_dynamo_5, 0, false);
-					break;
-			}
+			this_time = choose(s_dynamo_1, s_dynamo_2, s_dynamo_3, s_dynamo_4, s_dynamo_5);
+			audio_play_sound(this_time, 0, false);
 		} else audio_play_sound(voice, 0, false);
 		
 		
