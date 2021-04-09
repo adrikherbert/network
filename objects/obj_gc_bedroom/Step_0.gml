@@ -97,18 +97,43 @@ if (count == 466 && trigger == 12) {
 	instance_destroy(drawtext);
 	instance_destroy(obj_coverbox);
 	instance_destroy(blackout0);
-	audio_play_sound(s_crunch, 10, false);
 	
 	instance_deactivate_all(true);
 	
+	trigger++; 
+	count = 0;
+}
+
+if (count == 60 && trigger == 13) {
 	txtbox = instance_create_depth(0, 0, -1000, obj_textbox);
-	txtbox.voice = s_dynamo_1;
-	txtbox.text[0] = "And . . . !";
+	txtbox.voice = s_generic_voice;
+	txtbox.text[0] = "I hope you can hear me...";
+	txtbox.text[1] = "Benji.";
+	txtbox.text[2] = "I can feel how close you are.";
+	txtbox.text[3] = "Please be careful.";
+	txtbox.text[4] = "This world is dangerous.";
+	txtbox.text[5] = "Good luck.";
+	txtbox.text[6] = "I love you so much.";
+	txtbox.text[7] = ". . .";
+	txtbox.text[8] = "I'll see you soon.";
+	
 	count = 0;
 	trigger += 1;
 }
 
-if (keyboard_check_pressed(vk_space) && trigger == 13) {
+if (keyboard_check_pressed(vk_space) && trigger == 14) {
+	if (txtbox.next < 8) {
+		txtbox.l = 0;
+		txtbox.next++;
+	} else {
+		instance_destroy(txtbox);
+		audio_play_sound(s_revelation, 0, false);
+		trigger++;
+		count = 0;
+	}
+}
+
+if (count == 11 && trigger == 15) {
 	instance_deactivate_all(false);
 	room_goto(Forest_1);
 }

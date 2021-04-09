@@ -3,15 +3,17 @@
 
 switch (trigger) {
 	case 0:
-		txtbox1 = instance_create_depth(0, 0, 0, obj_textbox);
-		txtbox1.voice = s_dynamo_1;
+		if (count == 50) {
+			txtbox1 = instance_create_depth(0, 0, 0, obj_textbox);
+			txtbox1.voice = s_dynamo_1;
 		
-		obj_benji.movable = false;
-		audio_play_sound(s_power_on, 0, false);
+			obj_benji.movable = false;
 		
-		for (var i = 0; i < 13; i++) txtbox1.text[i] = dynamo1[i];
+			for (var i = 0; i < 13; i++) txtbox1.text[i] = dynamo1[i];
 		
-		trigger++;
+			trigger++;
+			docount = false;
+		}
 		break;
 	case 2:
 		trigger++;
@@ -66,6 +68,9 @@ if (trigger == 3) {
 if (trigger == 5 && count == 50) trigger++;
 
 if (trigger == 7 && count = 100) trigger++;
+
+if (docount) count++;
+else count = 0;
 
 if (docount) count++;
 else count = 0;

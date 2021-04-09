@@ -2,12 +2,12 @@
 // You can write your code in this editor
 trigger = 0;
 count = 0;
-docount = false;
+docount = true;
 
 dynamo1[0] = "Voila!!!";
 dynamo1[1] = ". . .";
 dynamo1[2] = "Oh. . . Oops.";
-dynamo1[3] = "I accidentally teleported us to the Forest";
+dynamo1[3] = "I accidentally teleported us to the Forest.";
 dynamo1[4] = "Oh, crikey! That's my bad!";
 dynamo1[5] = ". . .";
 dynamo1[6] = "Oh, hey! I know there's a real nice place on the outskirts of the Forest!";
