@@ -1,3 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-instance_destroy()
+trigger = 0;
+docount = false;
+count = 0;
+
+cam = noone;

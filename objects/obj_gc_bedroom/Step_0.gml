@@ -93,7 +93,7 @@ if (count == 233 && trigger == 12) {
 	drawtext.col = c_white;
 }
 
-if (count == 466 && trigger == 12) {
+if (count == 500 && trigger == 12) {
 	instance_destroy(drawtext);
 	instance_destroy(obj_coverbox);
 	instance_destroy(blackout0);
@@ -104,7 +104,7 @@ if (count == 466 && trigger == 12) {
 	count = 0;
 }
 
-if (count == 60 && trigger == 13) {
+if (count == 100 && trigger == 13) {
 	txtbox = instance_create_depth(0, 0, -1000, obj_textbox);
 	txtbox.voice = s_generic_voice;
 	txtbox.text[0] = "I hope you can hear me...";
@@ -135,7 +135,7 @@ if (keyboard_check_pressed(vk_space) && trigger == 14) {
 
 if (count == 11 && trigger == 15) {
 	instance_deactivate_all(false);
-	room_goto(Forest_1);
+	room_goto(R_Forest_1);
 }
 
 if (docount) count++;

@@ -41,7 +41,7 @@ switch (trigger) {
 		break;
 	case 8:
 		audio_play_sound(s_forest, 0, true);
-		obj_camera_moving1.trigger++;
+		obj_camera_forest1.trigger++;
 		instance_destroy();
 		break;
 }
