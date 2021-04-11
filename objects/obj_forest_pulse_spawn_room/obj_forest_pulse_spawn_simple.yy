@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_bit_ow_1",
-    "path": "sprites/spr_bit_ow_1/spr_bit_ow_1.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,17 +18,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Bit",
-    "path": "folders/Objects/NPC/Small Enemies OW/Bit.yy",
+    "name": "Forest",
+    "path": "folders/Objects/Controls/Game Controllers/Forest.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_bit_ow",
+  "name": "obj_forest_pulse_spawn_simple",
   "tags": [],
   "resourceType": "GMObject",
 }

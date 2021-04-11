@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_bit_ow_1",
-    "path": "sprites/spr_bit_ow_1/spr_bit_ow_1.yy",
+    "name": "spr_bit_ow_idle",
+    "path": "sprites/spr_bit_ow_idle/spr_bit_ow_idle.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Bit",
-    "path": "folders/Objects/NPC/Small Enemies OW/Bit.yy",
+    "name": "Small Enemies FIGHT",
+    "path": "folders/Objects/NPC/Small Enemies FIGHT.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_bit_ow",
+  "name": "obj_fight_bit",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_bit_ow_1",
-    "path": "sprites/spr_bit_ow_1/spr_bit_ow_1.yy",
+    "name": "spr_fight_char_select1",
+    "path": "sprites/spr_fight_char_select1/spr_fight_char_select1.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,18 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Bit",
-    "path": "folders/Objects/NPC/Small Enemies OW/Bit.yy",
+    "name": "UI",
+    "path": "folders/Objects/Controls/FIght/UI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_bit_ow",
+  "name": "obj_fight_char_select1",
   "tags": [],
   "resourceType": "GMObject",
 }
