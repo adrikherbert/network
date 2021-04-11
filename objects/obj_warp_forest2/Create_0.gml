@@ -2,10 +2,10 @@
 // You can write your code in this editor
 
 // TESTING
-/*
+
 global.warpx = -1;
 global.warpy = -1;
-*/
+
 
 place = R_Forest_2;
 dir = 0;

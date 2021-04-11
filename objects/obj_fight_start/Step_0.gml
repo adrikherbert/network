@@ -29,17 +29,29 @@ switch (trigger) {
 		circ3.image_index = 1;
 		trigger++;
 		
+		
 		text = instance_create_depth(0, 0, -200, obj_drawtext);
 		text.text = "Fight!";
 		text.font = Bold;
 		
-		docount = false;
+		count = 0;
+		break;
+	case 8:
+		audio_play_sound(s_fight_music, -10, true);
+		
+		trigger++;
+		count = 0;
+		break;
+	case 10:
+		room_goto(R_Fight_Bit);
 		break;
 }
 
 if (trigger == 1 && count == 10) trigger++;
 if (trigger == 3 && count == 10) trigger++;
 if (trigger == 5 && count == 10) trigger++;
+if (trigger == 7 && count == 20) trigger++;
+if (trigger == 9 && count == 60) trigger++;
 
 if (docount) count++;
 else count = 0;

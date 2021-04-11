@@ -3,9 +3,10 @@
 
 // TESTING
 
+/*
 global.warpx = -1;
 global.warpy = -1;
-
+*/
 
 place = R_Forest_1_1;
 dir = 0;

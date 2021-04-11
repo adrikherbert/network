@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_fight_char_menu",
-    "path": "sprites/spr_fight_char_menu/spr_fight_char_menu.yy",
+    "name": "spr_circles",
+    "path": "sprites/spr_circles/spr_circles.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,7 +20,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +31,7 @@
     "path": "folders/Objects/Controls/Fight/UI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_fight_char_menu",
+  "name": "obj_fight_incircle",
   "tags": [],
   "resourceType": "GMObject",
 }

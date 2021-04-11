@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "FIght",
-    "path": "folders/Objects/Controls/FIght.yy",
+    "name": "Fight",
+    "path": "folders/Objects/Controls/Fight.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_fight_start",

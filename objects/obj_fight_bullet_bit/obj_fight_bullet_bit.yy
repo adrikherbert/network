@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_fight_char_menu",
-    "path": "sprites/spr_fight_char_menu/spr_fight_char_menu.yy",
+    "name": "spr_bullet_bit",
+    "path": "sprites/spr_bullet_bit/spr_bullet_bit.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,15 +20,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "UI",
-    "path": "folders/Objects/Controls/Fight/UI.yy",
+    "name": "Objects",
+    "path": "folders/Objects/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_fight_char_menu",
+  "name": "obj_fight_bullet_bit",
   "tags": [],
   "resourceType": "GMObject",
 }

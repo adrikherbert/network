@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "UI",
-    "path": "folders/Objects/Controls/FIght/UI.yy",
+    "path": "folders/Objects/Controls/Fight/UI.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_fight_char_select2",
