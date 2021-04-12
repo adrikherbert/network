@@ -183,8 +183,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"R_Forest_1","path":"rooms/R_Forest_1/R_Forest_1.yy",},},
     {"roomId":{"name":"R_Fight_Bit","path":"rooms/R_Fight_Bit/R_Fight_Bit.yy",},},
+    {"roomId":{"name":"R_Forest_1","path":"rooms/R_Forest_1/R_Forest_1.yy",},},
     {"roomId":{"name":"R_Forest_2","path":"rooms/R_Forest_2/R_Forest_2.yy",},},
     {"roomId":{"name":"R_Bedroom","path":"rooms/R_Bedroom/R_Bedroom.yy",},},
     {"roomId":{"name":"R_Bedroom_Intro","path":"rooms/R_Bedroom_Intro/R_Bedroom_Intro.yy",},},

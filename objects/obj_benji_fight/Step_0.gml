@@ -16,8 +16,10 @@ if (fight) {
 		hp -= 5;
 	}
 } else {
-	if (x != stay_x) x = stay_x;
-	if (y != stay_y) y = stay_y;
+	if (autoplace) {
+		if (x != stay_x) x = stay_x;
+		if (y != stay_y) y = stay_y;
+	}
 }
 
 if (fade) {

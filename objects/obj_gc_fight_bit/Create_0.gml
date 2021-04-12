@@ -2,9 +2,12 @@
 // You can write your code in this editor
 select = 0;
 
+dialogue = 0;
+dotalk = false;
+
 home = true;
 menu = false;
-activate = true;
+activate = false;
 fight = false;
 draw = true;
 start = true;
@@ -12,6 +15,9 @@ cleanup = false;
 over = false;
 won = false;
 lost = false;
+
+targ_x = 0;
+targ_y = 0;
 
 over_start = true;
 
@@ -29,6 +35,7 @@ m_select = 0;
 
 instance_create_depth(room_width / 2, room_height / 2, 0, obj_fight_incircle);
 
+trigger0 = 0;
 trigger = 0;
-docount = false;
+docount = true;
 count = 0;

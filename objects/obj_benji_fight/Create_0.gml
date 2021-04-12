@@ -4,8 +4,10 @@ hp = 40;
 hp_max = 40;
 hb_w = 40; // Healthbar Width
 
-stay_x = x;
-stay_y = y;
+stay_x = 236;
+stay_y = 546;
+
+autoplace = true;
 
 check_h = true;
 fade = false;
