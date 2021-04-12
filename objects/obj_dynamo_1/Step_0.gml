@@ -7,8 +7,6 @@ switch (trigger) {
 			txtbox1 = instance_create_depth(0, 0, 0, obj_textbox);
 			txtbox1.voice = s_dynamo_1;
 		
-			obj_benji.movable = false;
-		
 			for (var i = 0; i < 13; i++) txtbox1.text[i] = dynamo1[i];
 		
 			trigger++;

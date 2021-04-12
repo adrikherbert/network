@@ -17,8 +17,8 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_warp_forest2","path":"objects/obj_warp_forest2/obj_warp_forest2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":6.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4064.0,"y":2528.0,"resourceVersion":"1.0","name":"inst_14B621F4","tags":[],"resourceType":"GMRInstance",},
       ],"visible":false,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Warps","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_camera_forest1_1","path":"objects/obj_camera_forest1_1/obj_camera_forest1_1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":0.0,"resourceVersion":"1.0","name":"inst_1EE849C5","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_forest_pulse_spawn_simple","path":"objects/obj_forest_pulse_spawn_simple/obj_forest_pulse_spawn_simple.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_5DEA6D07","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_camera_forest2","path":"objects/obj_camera_forest2/obj_camera_forest2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":0.0,"resourceVersion":"1.0","name":"inst_56D66B8F","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Controllers","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_forest_tree","path":"objects/obj_forest_tree/obj_forest_tree.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-3.4,"scaleY":3.6,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1344.0,"y":352.0,"resourceVersion":"1.0","name":"inst_60E7A0A5","tags":[],"resourceType":"GMRInstance",},
@@ -393,7 +393,7 @@
     {"name":"inst_3FB59271","path":"rooms/R_Forest_1_1/R_Forest_1_1.yy",},
     {"name":"inst_74061764","path":"rooms/R_Forest_1_1/R_Forest_1_1.yy",},
     {"name":"inst_5DEA6D07","path":"rooms/R_Forest_1_1/R_Forest_1_1.yy",},
-    {"name":"inst_56D66B8F","path":"rooms/R_Forest_1_1/R_Forest_1_1.yy",},
+    {"name":"inst_1EE849C5","path":"rooms/R_Forest_1_1/R_Forest_1_1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

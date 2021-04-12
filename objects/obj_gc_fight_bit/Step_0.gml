@@ -115,18 +115,31 @@ if (activate) {
 			case 2:
 				fighter.fight = true;
 				enemy.fight = true;
-				fighter.autoplace = true;
 				
 				count = 0;
 				trigger++;
 				break;
+			case 4:
+				enemy.fight = false;
+				fighter.fight = false;
+				
+				targ_x = fighter.permanex;
+				targ_y = fighter.permaney;
+				
+				trigger++;
+				count = 0;
+				break;
+			case 6:
+				fight = false;
+				cleanup = true;
+				break;
 		}
 		
-		if (trigger == 1 && fighter.x != targ_x) fighter.x += (targ_x - fighter.x) / 15;
-		if (trigger == 1 && fighter.y != targ_y) fighter.y += (targ_y - fighter.y) / 15;
-		if (trigger == 1 && count == 60) trigger++;
+		if ((trigger == 1 || trigger == 5) && fighter.x != targ_x) fighter.x += (targ_x - fighter.x) / 15;
+		if ((trigger == 1 || trigger == 5) && fighter.y != targ_y) fighter.y += (targ_y - fighter.y) / 15;
+		if ((trigger == 1 || trigger == 5) && count == 60) trigger++;
 		
-		if (trigger == 3 && count == 400) {fight = false; cleanup = true;}
+		if (trigger == 3 && count == 400) trigger++;
 		if (fighter.hp <= 0) {fight = false; over = true; lost = true;}
 		if (enemy.hp <= 0) {fight = false; over = true; won = true;}
 		
@@ -134,8 +147,7 @@ if (activate) {
 	
 	if (cleanup) {
 		home = true;
-		fighter.fight = false;
-		enemy.fight = false;
+		fighter.autoplace = true;
 		
 		layer_set_visible(ui, true);
 		draw = true;

@@ -19,6 +19,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_forest_pulse_spawn","path":"objects/obj_forest_pulse_spawn/obj_forest_pulse_spawn.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_11340B11","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_camera_forest1","path":"objects/obj_camera_forest1/obj_camera_forest1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":0.0,"resourceVersion":"1.0","name":"inst_2094BDF4","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_freezer","path":"objects/obj_freezer/obj_freezer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":0.0,"resourceVersion":"1.0","name":"inst_3A9B443A","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Controllers","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_forest_tree","path":"objects/obj_forest_tree/obj_forest_tree.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-3.4,"scaleY":3.6,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1344.0,"y":352.0,"resourceVersion":"1.0","name":"inst_60E7A0A5","tags":[],"resourceType":"GMRInstance",},
@@ -396,6 +397,7 @@
     {"name":"inst_74061764","path":"rooms/R_Forest_1/R_Forest_1.yy",},
     {"name":"inst_14B621F4","path":"rooms/R_Forest_1/R_Forest_1.yy",},
     {"name":"inst_2094BDF4","path":"rooms/R_Forest_1/R_Forest_1.yy",},
+    {"name":"inst_3A9B443A","path":"rooms/R_Forest_1/R_Forest_1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

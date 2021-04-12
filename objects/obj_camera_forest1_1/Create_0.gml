@@ -7,10 +7,12 @@ cam_height = camera_get_view_height(camera);
 
 target_x = 0;
 target_y = 0;
-x = 0;
-y = 0;
+x = obj_benji.x - (cam_width / 2);
+y = obj_benji.y - (cam_height / 2) - 16;
 
 trigger = 0;
+
+obj_forest_pulse_spawn_simple.cam = self;
 
 
 /*

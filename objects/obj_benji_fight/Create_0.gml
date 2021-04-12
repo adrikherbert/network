@@ -7,6 +7,9 @@ hb_w = 40; // Healthbar Width
 stay_x = 236;
 stay_y = 546;
 
+permanex = 236;
+permaney = 546;
+
 autoplace = true;
 
 check_h = true;
