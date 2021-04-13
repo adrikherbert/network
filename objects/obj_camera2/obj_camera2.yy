@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Controls",
-    "path": "folders/Objects/Controls.yy",
+    "name": "Cameras",
+    "path": "folders/Objects/Controls/Cameras.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_camera2",

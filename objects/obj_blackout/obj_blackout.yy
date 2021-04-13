@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "UI",
-    "path": "folders/Objects/UI.yy",
+    "name": "Covers",
+    "path": "folders/Objects/UI/Covers.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_blackout",

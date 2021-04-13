@@ -9,6 +9,9 @@ if (fight) {
 		go_y = irandom_range(2, 4);
 		
 		start = false;
+		
+		if (obj_gc_fight_bit.rounds % 2 == 0) spin = true;
+		else spin = false;
 	}
 	
 	if (x > 1166) min_x = 1;
@@ -38,19 +41,22 @@ if (fight) {
 	if (place_meeting(x, y, obj_fight_bullet_benji)) {
 		audio_play_sound(s_generic_enemy_hit, 0, false);
 		instance_destroy(instance_place(x, y, obj_fight_bullet_benji));
-		hp -= 2;
+		hp -= 0.8;
 	}
 	
 	if (count % 30 == 0) instance_create_depth(x, y, 300, obj_fight_bullet_bit);
+	
+	if (spin) image_angle += 4;
 	
 } else {
 	if (!start) start = true;
 	x = stay_x;
 	y = stay_y;
+	
+	image_angle = 0;
 }
 
 if (spinoff) {
-	image_angle += 7;
 	image_xscale -= 0.1;
 	image_yscale -= 0.1;
 	

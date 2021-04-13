@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Room",
-    "path": "folders/Objects/Room.yy",
+    "name": "House",
+    "path": "folders/Objects/Room/House.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_gwen_bedroom_exp",

@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "NPC",
-    "path": "folders/Objects/NPC.yy",
+    "name": "Dynamo",
+    "path": "folders/Objects/NPC/Dynamo.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_dynamo",

@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "UI",
-    "path": "folders/Objects/UI.yy",
+    "name": "Text",
+    "path": "folders/Objects/UI/Text.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_chatbox",

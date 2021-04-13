@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "UI",
-    "path": "folders/Objects/Controls/Fight/UI.yy",
+    "name": "Fight",
+    "path": "folders/Objects/UI/Fight.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_fight_incircle",

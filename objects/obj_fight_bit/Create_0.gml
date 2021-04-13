@@ -6,6 +6,7 @@ hb_w = 40;
 fight = false;
 start = true;
 spinoff = false;
+spin = false;
 check_h = true;
 fade = false;
 

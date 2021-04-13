@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects/Objects.yy",
+    "name": "Forest",
+    "path": "folders/Objects/Objects/Forest.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_forest_tree",

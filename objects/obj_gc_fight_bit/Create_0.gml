@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 select = 0;
+rounds = 0;
 
 dialogue = 0;
 dotalk = false;
@@ -15,6 +16,7 @@ cleanup = false;
 over = false;
 won = false;
 lost = false;
+time = false;
 
 targ_x = 0;
 targ_y = 0;
@@ -39,3 +41,5 @@ trigger0 = 0;
 trigger = 0;
 docount = true;
 count = 0;
+
+time_max_w = 40;

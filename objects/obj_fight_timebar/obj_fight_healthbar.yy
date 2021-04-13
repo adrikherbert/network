@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_fade",
-    "path": "sprites/spr_fade/spr_fade.yy",
+    "name": "spr_healthbar",
+    "path": "sprites/spr_healthbar/spr_healthbar.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,11 +26,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Covers",
-    "path": "folders/Objects/UI/Covers.yy",
+    "name": "UI",
+    "path": "folders/Objects/Controls/Fight/UI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_fade",
+  "name": "obj_fight_healthbar",
   "tags": [],
   "resourceType": "GMObject",
 }

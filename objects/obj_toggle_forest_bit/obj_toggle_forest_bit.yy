@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Warps and Walls",
-    "path": "folders/Objects/Controls/Warps and Walls.yy",
+    "name": "Toggles",
+    "path": "folders/Objects/Controls/Toggles.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_toggle_forest_bit",

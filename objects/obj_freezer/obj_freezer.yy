@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Controls",
-    "path": "folders/Objects/Controls.yy",
+    "name": "Toggles",
+    "path": "folders/Objects/Controls/Toggles.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_freezer",

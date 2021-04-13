@@ -8,7 +8,7 @@ if (fight) {
 	
 	x = clamp (x, 200, 1166);
 	
-	if (keyboard_check_pressed(vk_space)) instance_create_depth(x, y, 300, obj_fight_bullet_benji);
+	if (keyboard_check_pressed(vk_space) && !instance_exists(obj_fight_bullet_benji)) instance_create_depth(x, y, 300, obj_fight_bullet_benji);
 	
 	if (place_meeting(x, y, obj_fight_bullet_bit)) {
 		audio_play_sound(s_player_hit, 0, false);

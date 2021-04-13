@@ -78,8 +78,6 @@ if (activate) {
 	}
 	
 	if (fight) {
-		draw_text(10, 10, string(trigger));
-		
 		if (start) {
 			draw = false;
 			layer_set_visible(ui, false);
@@ -98,6 +96,7 @@ if (activate) {
 			enemy.fight = true;
 			*/
 			
+			rounds++;
 			trigger = 0;
 			start = false;
 			docount = true;
@@ -115,6 +114,10 @@ if (activate) {
 			case 2:
 				fighter.fight = true;
 				enemy.fight = true;
+				
+				tb = instance_create_depth(1100, 16, 200, obj_fight_timebar);
+				tb.image_index = 2;
+				time = true;
 				
 				count = 0;
 				trigger++;
@@ -140,8 +143,14 @@ if (activate) {
 		if ((trigger == 1 || trigger == 5) && count == 60) trigger++;
 		
 		if (trigger == 3 && count == 400) trigger++;
-		if (fighter.hp <= 0) {fight = false; over = true; lost = true;}
-		if (enemy.hp <= 0) {fight = false; over = true; won = true;}
+		if (fighter.hp <= 0) {fight = false; over = true; lost = true; instance_destroy(tb);}
+		if (enemy.hp <= 0) {fight = false; over = true; won = true; instance_destroy(tb);}
+		
+		if (time && tb.image_xscale > 0) tb.image_xscale = ((400 - count) / time_max_w) * 3;
+		else if (time) {
+			instance_destroy(tb);
+			time = false;
+		}
 		
 	} else if (!start) start = true;
 	

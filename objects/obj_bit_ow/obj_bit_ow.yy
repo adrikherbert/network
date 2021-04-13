@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Bit",
-    "path": "folders/Objects/NPC/Small Enemies OW/Bit.yy",
+    "name": "Small Enemies OW",
+    "path": "folders/Objects/NPC/Small Enemies OW.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_bit_ow",

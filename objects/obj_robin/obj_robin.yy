@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "NPC",
-    "path": "folders/Objects/NPC.yy",
+    "name": "Robin",
+    "path": "folders/Objects/NPC/Robin.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_robin",

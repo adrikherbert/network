@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects/Objects.yy",
+    "name": "House",
+    "path": "folders/Objects/Objects/House.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_bedroom_blanket",

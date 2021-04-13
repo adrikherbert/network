@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects/Objects.yy",
+    "name": "Particles",
+    "path": "folders/Objects/Objects/Particles.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_forest_pulse_static",

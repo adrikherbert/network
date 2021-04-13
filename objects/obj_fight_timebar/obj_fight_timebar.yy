@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_fade",
-    "path": "sprites/spr_fade/spr_fade.yy",
+    "name": "spr_healthbar",
+    "path": "sprites/spr_healthbar/spr_healthbar.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Covers",
-    "path": "folders/Objects/UI/Covers.yy",
+    "name": "Fight",
+    "path": "folders/Objects/UI/Fight.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_fade",
+  "name": "obj_fight_timebar",
   "tags": [],
   "resourceType": "GMObject",
 }
