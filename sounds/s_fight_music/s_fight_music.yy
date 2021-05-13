@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.6,
+  "volume": 0.18,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "s_fight_music.mp3",
-  "duration": 85.589,
+  "duration": 102.901291,
   "parent": {
     "name": "Fight",
     "path": "folders/Sounds/Fight.yy",

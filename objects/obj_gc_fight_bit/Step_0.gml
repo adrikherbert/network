@@ -49,7 +49,7 @@ if (activate) {
 		sel4.image_index = 0;
 	}
 
-	if (ent && !menu && !fight) {
+	if (ent && !menu && !fight && !over) {
 		audio_play_sound(s_generic_voice, 0, false);
 		if (select == 0) {
 			menu_b = instance_create_depth(163, 343, 100, obj_fight_char_menu);
@@ -88,13 +88,6 @@ if (activate) {
 					fighter = obj_benji_fight;
 					break;
 			}
-		
-			/*
-			fighter.x = 683;
-			fighter.y = 700;
-			fighter.fight = true;
-			enemy.fight = true;
-			*/
 			
 			rounds++;
 			trigger = 0;
@@ -107,7 +100,7 @@ if (activate) {
 			case 0:
 				targ_x = 683;
 				targ_y = 700;
-				fighter.autoplace = false;
+				if (instance_exists(fighter)) fighter.autoplace = false;
 				trigger++;
 				count = 0;
 				break;
@@ -143,8 +136,24 @@ if (activate) {
 		if ((trigger == 1 || trigger == 5) && count == 60) trigger++;
 		
 		if (trigger == 3 && count == 400) trigger++;
-		if (fighter.hp <= 0) {fight = false; over = true; lost = true; instance_destroy(tb);}
-		if (enemy.hp <= 0) {fight = false; over = true; won = true; instance_destroy(tb);}
+		
+		if (fighter.hp <= 0) {
+			fight = false; 
+			over = true; 
+			lost = true; 
+			
+			obj_camera_fight_bit.shake = false;
+			instance_destroy(tb);
+		}
+		
+		if (enemy.hp <= 0) {
+			fight = false; 
+			over = true; 
+			won = true; 
+			
+			obj_camera_fight_bit.shake = false;
+			instance_destroy(tb);
+		}
 		
 		if (time && tb.image_xscale > 0) tb.image_xscale = ((400 - count) / time_max_w) * 3;
 		else if (time) {
@@ -194,6 +203,7 @@ if (activate) {
 			switch (trigger) {
 				case 0:
 					audio_play_sound(s_generic_enemy_hit, 0, false);
+					global.bit_complete = true;
 					trigger++;
 					count = 0;
 					break;
@@ -212,6 +222,12 @@ if (activate) {
 				case 6:
 					txt = instance_create_depth(0, 0, 0, obj_drawtext);
 					txt.text = "Victory!";
+					trigger++;
+					count = 0;
+					break;
+				case 8:
+					instance_destroy(txt);
+					room_goto(R_Forest_2);
 					trigger++;
 					count = 0;
 					break;
@@ -244,6 +260,7 @@ if (activate) {
 	if (won && trigger == 1 && count == 110) trigger++;
 	if (won && trigger == 3 && count == 60) trigger++;
 	if (won && trigger == 5 && count == 132) trigger++;
+	if (won && trigger == 7 && count == 260) trigger++;
 	
 	if (lost && trigger == 1 && count == 120) trigger++;
 	if (lost && trigger == 3 && count == 132) trigger++;
@@ -266,7 +283,7 @@ if (dotalk) {
 			box1.text[6] = "Using an item will prevent you from being able to attack, but you'll have to withstand the enemy's shenanigans!";
 			box1.text[7] = "If you choose the fight option, you can use the arrow keys to dodge any bullets, and the spacebar to shoot your own!";
 			box1.text[8] = "This game isn't just a complete rip-off of Undertale...";
-			box1.text[9] = "There are a lot of different kinds of attacks that an enemy can use";
+			box1.text[9] = "There are a lot of different kinds of attacks that an enemy can use.";
 			box1.text[10] = "It's your job to figure out how to beat us!";
 			box1.text[11] = "So, uh...";
 			box1.text[12] = "Enough talk, let's battle!";

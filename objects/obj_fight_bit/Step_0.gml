@@ -14,11 +14,35 @@ if (fight) {
 		else spin = false;
 	}
 	
-	if (x > 1166) min_x = 1;
-	else if (x < 200) min_x = 0;
+	if (x > 1166) {
+		if (spin) {
+			obj_camera_fight_bit.shake = true;
+			audio_play_sound(s_bit_bounce, -5, false);
+		} else audio_play_sound(s_bit_bounce_weak, -5, false);
+		min_x = 1;
+	}
+	else if (x < 200) {
+		if (spin) {
+			obj_camera_fight_bit.shake = true;
+			audio_play_sound(s_bit_bounce, -5, false);
+		} else audio_play_sound(s_bit_bounce_weak, -5, false);
+		min_x = 0;
+	}
 	
-	if (y > 300) min_y = 1;
-	else if (y < 100) min_y = 0;
+	if (y > 300) {
+		if (spin) {
+			obj_camera_fight_bit.shake = true;
+			audio_play_sound(s_bit_bounce, -5, false);
+		} else audio_play_sound(s_bit_bounce_weak, -5, false);
+		min_y = 1;
+	}
+	else if (y < 100) {
+		if (spin) {
+			obj_camera_fight_bit.shake = true;
+			audio_play_sound(s_bit_bounce, -5, false);
+		} else audio_play_sound(s_bit_bounce_weak, -5, false);
+		min_y = 0;
+	}
 	
 	switch (min_x) {
 		case 0:

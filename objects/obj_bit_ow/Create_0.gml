@@ -6,3 +6,5 @@ count = 0;
 docount = false;
 
 trigger = 0;
+
+if (global.bit_complete) instance_destroy();

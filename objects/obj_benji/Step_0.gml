@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
 if (global.warpx != -1 && global.warpy != -1) {
 		x = global.warpx;
 		y = global.warpy;
@@ -27,8 +26,11 @@ if (movable) {
 	input_magnitude = (move_right - move_left != 0) || (move_down - move_up != 0);
 
 	// Calculate horizontal and vertical speed based on player input
-	h_speed = lengthdir_x(input_magnitude * walk_speed, input_direction);
-	v_speed = lengthdir_y(input_magnitude * walk_speed, input_direction);
+	if (keyboard_check(vk_shift)) speedup = 4;
+	else speedup = 1;
+	
+	h_speed = speedup * lengthdir_x(input_magnitude * walk_speed, input_direction);
+	v_speed = speedup * lengthdir_y(input_magnitude * walk_speed, input_direction);
 
 	player_collision();
 
@@ -42,6 +44,6 @@ if (movable) {
 } else {
 	sprite_index = stop_sprite;
 	image_index = stop_index;
-	if (global.stopdex != -1) image_index = global.stopdex; global.stopdex = -1;
+	if (global.stopdex != -1) {image_index = global.stopdex; global.stopdex = -1;}
 	image_speed = 0;	
 }

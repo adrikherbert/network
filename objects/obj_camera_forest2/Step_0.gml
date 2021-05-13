@@ -9,6 +9,10 @@ switch (trigger) {
 	case 1:
 		target_x = 910;
 		break;
+	case 2:
+		target_x = obj_benji.x - (cam_width / 2);
+		target_y = obj_benji.y - (cam_height / 2) - 16;
+		break;
 }
 
 if (x != target_x) {

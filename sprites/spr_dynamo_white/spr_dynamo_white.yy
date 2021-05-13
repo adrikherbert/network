@@ -173,8 +173,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "NPC",
-    "path": "folders/Sprites/NPC.yy",
+    "name": "Dynamo",
+    "path": "folders/Sprites/NPC/Dynamo.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_dynamo_white",

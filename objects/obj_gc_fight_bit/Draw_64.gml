@@ -24,7 +24,7 @@ if (draw) {
 			if (m_select == 1) draw_set_color(c_yellow);
 			else draw_set_color(c_white);
 		
-			draw_text(240, 480, "Item");
+			draw_text(240, 500, "Item");
 		}
 	}
 }

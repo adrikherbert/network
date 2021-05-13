@@ -19,15 +19,16 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Toggles",
-    "path": "folders/Objects/Controls/Toggles.yy",
+    "name": "Cameras",
+    "path": "folders/Objects/Controls/Cameras.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_freezer",
+  "name": "obj_camera_forest1_1",
   "tags": [],
   "resourceType": "GMObject",
 }

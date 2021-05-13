@@ -11,6 +11,9 @@ y = 0;
 
 trigger = 0;
 
+global.warpx = -1;
+global.warpy = -1;
+
 
 /*
 x = obj_benji.x - (cam_width / 2);
