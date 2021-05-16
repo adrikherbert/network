@@ -1,8 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-cam = obj_camera_forest_pop;
+fade_alpha = 0;
 
-trigger = 0;
-docount = false;
-count = 0;
+go_up = true;
+go_down = false;

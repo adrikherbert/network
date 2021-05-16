@@ -1,8 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-cam = obj_camera_forest_pop;
-
-trigger = 0;
-docount = false;
-count = 0;
+draw_set_alpha(fade_alpha);
+draw_sprite(spr_white, 0, 0, 0);
