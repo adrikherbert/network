@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_gummy_bear",
-    "path": "sprites/spr_gummy_bear/spr_gummy_bear.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -27,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Little Guys",
-    "path": "folders/Objects/NPC/Little Guys.yy",
+    "name": "Cameras",
+    "path": "folders/Objects/Controls/Cameras.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_gummy_1",
+  "name": "obj_camera_forest_pop",
   "tags": [],
   "resourceType": "GMObject",
 }

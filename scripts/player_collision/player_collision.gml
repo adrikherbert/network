@@ -13,6 +13,7 @@ function player_collision(){
 		_collision = true;
 	}
 	
+	// check vertical tiles
 	if (tilemap_get_at_pixel(collision_map, x, y + v_speed))
 	{
 		y -= y mod TILE_SIZE;
@@ -20,6 +21,28 @@ function player_collision(){
 		if (sign(v_speed) == 1) y += TILE_SIZE - 1;
 		v_speed = 0;
 		_collision = true;
+	}
+	
+	if (collision_temp != -1) {
+		// check horizontal tiles
+		if (tilemap_get_at_pixel(collision_temp, x + h_speed, y))
+		{
+			x -= x mod TILE_SIZE;
+		
+			if (sign(h_speed) == 1) x += TILE_SIZE - 1;
+			h_speed = 0;
+			_collision = true;
+		}
+	
+		// check vertical tiles
+		if (tilemap_get_at_pixel(collision_temp, x, y + v_speed))
+		{
+			y -= y mod TILE_SIZE;
+			
+			if (sign(v_speed) == 1) y += TILE_SIZE - 1;
+			v_speed = 0;
+			_collision = true;
+		}
 	}
 	
 	x += h_speed;

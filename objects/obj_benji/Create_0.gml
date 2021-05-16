@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 collision_map = layer_tilemap_get_id(layer_get_id("CollisionMap"));
+collision_temp = layer_tilemap_get_id(layer_get_id("CollisionDisappear"));
 walk_speed = 4;
 speedup = 1;
 movable = true;

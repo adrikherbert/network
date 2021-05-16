@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_gummy_bear",
-    "path": "sprites/spr_gummy_bear/spr_gummy_bear.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -27,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Little Guys",
-    "path": "folders/Objects/NPC/Little Guys.yy",
+    "name": "Forest",
+    "path": "folders/Objects/Controls/Game Controllers/Forest.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_gummy_1",
+  "name": "obj_gc_forest_3",
   "tags": [],
   "resourceType": "GMObject",
 }

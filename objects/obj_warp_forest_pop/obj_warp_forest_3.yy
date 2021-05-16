@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_gummy_bear",
-    "path": "sprites/spr_gummy_bear/spr_gummy_bear.yy",
+    "name": "spr_teleport_tile",
+    "path": "sprites/spr_teleport_tile/spr_teleport_tile.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Little Guys",
-    "path": "folders/Objects/NPC/Little Guys.yy",
+    "name": "Warps and Walls",
+    "path": "folders/Objects/Controls/Warps and Walls.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_gummy_1",
+  "name": "obj_warp_forest_3",
   "tags": [],
   "resourceType": "GMObject",
 }

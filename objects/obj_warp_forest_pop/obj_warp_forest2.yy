@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_gummy_bear",
-    "path": "sprites/spr_gummy_bear/spr_gummy_bear.yy",
+    "name": "spr_teleport_tile",
+    "path": "sprites/spr_teleport_tile/spr_teleport_tile.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_warp",
+    "path": "objects/obj_warp/obj_warp.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -22,16 +25,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Little Guys",
-    "path": "folders/Objects/NPC/Little Guys.yy",
+    "name": "Warps and Walls",
+    "path": "folders/Objects/Controls/Warps and Walls.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_gummy_1",
+  "name": "obj_warp_forest2",
   "tags": [],
   "resourceType": "GMObject",
 }

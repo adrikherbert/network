@@ -65,7 +65,7 @@ if (fight) {
 	if (place_meeting(x, y, obj_fight_bullet_benji)) {
 		audio_play_sound(s_generic_enemy_hit, 0, false);
 		instance_destroy(instance_place(x, y, obj_fight_bullet_benji));
-		hp -= 0.8;
+		hp -= 1;
 	}
 	
 	if (count % 30 == 0) instance_create_depth(x, y, 300, obj_fight_bullet_bit);
