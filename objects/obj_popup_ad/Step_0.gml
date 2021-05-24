@@ -30,7 +30,7 @@ if (trigger == 0 && count == 60) {
 }
 
 if (trigger == 2 && keyboard_check_pressed(vk_space)) {
-	if (box.next == 4) {
+	if (box.next == 5) {
 		instance_destroy(box);
 		trigger++;
 	} else {
@@ -47,7 +47,10 @@ if (trigger == 4 && count == 120) {
 
 if (dofade) {
 	image_alpha -= 0.02;
-	if (image_alpha <= 0) instance_destroy();
+	if (image_alpha <= 0) {
+		obj_gc_forest_pop.trigger++;
+		instance_destroy();
+	}
 }
 
 switch (trigger) {
@@ -56,8 +59,9 @@ switch (trigger) {
 		box.text[0] = "OMG!! Devin!! You found us more friends!";
 		box.text[1] = "I'm SO excited to have more join in the fun!";
 		box.text[2] = "Oooh! I have an idea!";
-		box.text[3] = "We should play tag! I'll be it first! Haha!";
-		box.text[4] = "This will be fun!";
+		box.text[3] = "We should play tag!";
+		box.text[4]= "I'll be it first! Haha!";
+		box.text[5] = "This will be fun!";
 		box.voice = s_popup_voice;
 		trigger++;
 		break;

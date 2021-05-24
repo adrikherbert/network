@@ -81,8 +81,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Squad",
-    "path": "folders/Sprites/NPC/Squad.yy",
+    "name": "Devin",
+    "path": "folders/Sprites/NPC/Squad/Devin.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_devin_sidewalk",
