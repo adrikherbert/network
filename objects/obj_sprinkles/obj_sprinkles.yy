@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_popup_ad",
-    "path": "sprites/spr_popup_ad/spr_popup_ad.yy",
+    "name": "spr_sprinkles",
+    "path": "sprites/spr_sprinkles/spr_sprinkles.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Popup Ad",
-    "path": "folders/Objects/NPC/Popup Ad.yy",
+    "name": "Particles",
+    "path": "folders/Objects/Objects/Particles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_popup_ad",
+  "name": "obj_sprinkles",
   "tags": [],
   "resourceType": "GMObject",
 }

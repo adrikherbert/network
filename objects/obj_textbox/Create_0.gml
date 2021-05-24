@@ -9,7 +9,7 @@ box_width = 750;
 text_height = 32;
 
 x = 283;
-y = 450;
+y = 500;
 
 draw_alpha = 0;
 

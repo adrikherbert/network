@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_popup_ad",
-    "path": "sprites/spr_popup_ad/spr_popup_ad.yy",
+    "name": "spr_blackout_circle",
+    "path": "sprites/spr_blackout_circle/spr_blackout_circle.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,17 +21,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Popup Ad",
-    "path": "folders/Objects/NPC/Popup Ad.yy",
+    "name": "Particles",
+    "path": "folders/Objects/Objects/Particles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_popup_ad",
+  "name": "obj_blackout_circle",
   "tags": [],
   "resourceType": "GMObject",
 }

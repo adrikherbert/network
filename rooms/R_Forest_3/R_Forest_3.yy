@@ -20,7 +20,6 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_camera_simple_move","path":"objects/obj_camera_simple_move/obj_camera_simple_move.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_279E1575","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_forest_pulse_spawn_simple_d","path":"objects/obj_forest_pulse_spawn_simple_d/obj_forest_pulse_spawn_simple_d.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":0.0,"resourceVersion":"1.0","name":"inst_7D21CC6C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_gc_forest_3","path":"objects/obj_gc_forest_3/obj_gc_forest_3.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":0.0,"resourceVersion":"1.0","name":"inst_4701F758","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_test","path":"objects/obj_test/obj_test.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":0.0,"resourceVersion":"1.0","name":"inst_1E3013E9","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Controllers","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_benji","path":"objects/obj_benji/obj_benji.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":2688.0,"resourceVersion":"1.0","name":"inst_5B5C3359","tags":[],"resourceType":"GMRInstance",},
@@ -492,7 +491,6 @@
     {"name":"inst_469E29C2","path":"rooms/R_Forest_3/R_Forest_3.yy",},
     {"name":"inst_4701F758","path":"rooms/R_Forest_3/R_Forest_3.yy",},
     {"name":"inst_4223C04C","path":"rooms/R_Forest_3/R_Forest_3.yy",},
-    {"name":"inst_1E3013E9","path":"rooms/R_Forest_3/R_Forest_3.yy",},
     {"name":"inst_7D21CC6C","path":"rooms/R_Forest_3/R_Forest_3.yy",},
   ],
   "inheritCreationOrder": false,

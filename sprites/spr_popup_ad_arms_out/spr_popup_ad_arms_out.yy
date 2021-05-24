@@ -7,8 +7,8 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 9,
-  "bbox_right": 29,
+  "bbox_left": 4,
+  "bbox_right": 34,
   "bbox_top": 0,
   "bbox_bottom": 49,
   "HTile": false,
@@ -24,12 +24,12 @@
   "gridX": 1,
   "gridY": 1,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0f041dfa-dce1-4c0b-b77f-6dfc900a816c","path":"sprites/spr_popup_ad/spr_popup_ad.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0f041dfa-dce1-4c0b-b77f-6dfc900a816c","path":"sprites/spr_popup_ad/spr_popup_ad.yy",},"LayerId":{"name":"43ad24eb-b6a7-4e3f-b07a-ae2a05e3df59","path":"sprites/spr_popup_ad/spr_popup_ad.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_popup_ad","path":"sprites/spr_popup_ad/spr_popup_ad.yy",},"resourceVersion":"1.0","name":"0f041dfa-dce1-4c0b-b77f-6dfc900a816c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0f041dfa-dce1-4c0b-b77f-6dfc900a816c","path":"sprites/spr_popup_ad_arms_out/spr_popup_ad_arms_out.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0f041dfa-dce1-4c0b-b77f-6dfc900a816c","path":"sprites/spr_popup_ad_arms_out/spr_popup_ad_arms_out.yy",},"LayerId":{"name":"43ad24eb-b6a7-4e3f-b07a-ae2a05e3df59","path":"sprites/spr_popup_ad_arms_out/spr_popup_ad_arms_out.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_popup_ad_arms_out","path":"sprites/spr_popup_ad_arms_out/spr_popup_ad_arms_out.yy",},"resourceVersion":"1.0","name":"0f041dfa-dce1-4c0b-b77f-6dfc900a816c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_popup_ad","path":"sprites/spr_popup_ad/spr_popup_ad.yy",},
+    "spriteId": {"name":"spr_popup_ad_arms_out","path":"sprites/spr_popup_ad_arms_out/spr_popup_ad_arms_out.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0a75c52e-f2c5-4a19-b3aa-d44e66a2eb94","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0f041dfa-dce1-4c0b-b77f-6dfc900a816c","path":"sprites/spr_popup_ad/spr_popup_ad.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"557f044b-5feb-4bda-b0c8-0824db7ff7e0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0f041dfa-dce1-4c0b-b77f-6dfc900a816c","path":"sprites/spr_popup_ad_arms_out/spr_popup_ad_arms_out.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 25,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_popup_ad","path":"sprites/spr_popup_ad/spr_popup_ad.yy",},
+    "parent": {"name":"spr_popup_ad_arms_out","path":"sprites/spr_popup_ad_arms_out/spr_popup_ad_arms_out.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_popup_ad",
+    "name": "spr_popup_ad_arms_out",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/NPC/Popup Ad.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_popup_ad",
+  "name": "spr_popup_ad_arms_out",
   "tags": [],
   "resourceType": "GMSprite",
 }
