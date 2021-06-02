@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_popup_error_1",
-    "path": "sprites/spr_popup_error_1/spr_popup_error_1.yy",
+    "name": "spr_toggle_tile",
+    "path": "sprites/spr_toggle_tile/spr_toggle_tile.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,18 +21,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":40,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "UI",
-    "path": "folders/Objects/UI.yy",
+    "name": "Toggles",
+    "path": "folders/Objects/Controls/Toggles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_error_message",
+  "name": "obj_toggle_popup_tag_2",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -8,3 +8,5 @@ wall = layer_tilemap_get_id(layer_get_id("CollisionMap"));
 trigger = 0;
 docount = false;
 count = 0;
+
+global.error_depth = 160;

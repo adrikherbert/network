@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_popup_error_1",
-    "path": "sprites/spr_popup_error_1/spr_popup_error_1.yy",
+    "name": "spr_popup_ad_head",
+    "path": "sprites/spr_popup_ad_head/spr_popup_ad_head.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,16 +23,15 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":40,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "UI",
-    "path": "folders/Objects/UI.yy",
+    "name": "Popup Ad",
+    "path": "folders/Objects/NPC/Popup Ad.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_error_message",
+  "name": "obj_popup_head",
   "tags": [],
   "resourceType": "GMObject",
 }

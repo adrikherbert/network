@@ -21,8 +21,10 @@ if (dostop) {
 	obj_benji.movable = false;
 }
 
-if (count == 5) {
-	obj_benji.movable = true;
+if (count == 120) {
+	instance_create_depth((camex + cam_width / 2), (camey + cam_height / 2 - 150), 169, obj_popup_head);
+	obj_error_message.shatter = true;
+	audio_play_sound(s_shatter, 10, false);
 	instance_destroy();
 }
 
