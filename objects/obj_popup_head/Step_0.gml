@@ -9,8 +9,17 @@ if (count == 120) {
 	box.text[0] = "Gotcha!";
 }
 
-if (count == 240) {
+if (count == 200) {
 	instance_destroy(box);
+	fight = instance_create_depth(0, 0, 0, obj_fight_start);
+	fight.music = s_popup_fight_1;
+	fight.cam = obj_camera_forest_pop;
+	fight.music_wait = 100;
+	fight.leave_wait = 0;
+	fight.fight_place = R_Fight_Popup_1;
+}
+
+if (count == 220) {
 	instance_destroy();
 }
 

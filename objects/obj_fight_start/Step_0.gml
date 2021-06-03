@@ -37,21 +37,21 @@ switch (trigger) {
 		count = 0;
 		break;
 	case 8:
-		audio_play_sound(s_fight_music, -10, true);
+		audio_play_sound(music, -10, true);
 		
 		trigger++;
 		count = 0;
 		break;
 	case 10:
-		room_goto(R_Fight_Bit);
+		room_goto(fight_place);
 		break;
 }
 
 if (trigger == 1 && count == 10) trigger++;
 if (trigger == 3 && count == 10) trigger++;
 if (trigger == 5 && count == 10) trigger++;
-if (trigger == 7 && count == 20) trigger++;
-if (trigger == 9 && count == 60) trigger++;
+if (trigger == 7 && count == music_wait) trigger++;
+if (trigger == 9 && count == leave_wait) trigger++;
 
 if (docount) count++;
 else count = 0;
