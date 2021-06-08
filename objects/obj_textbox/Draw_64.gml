@@ -19,8 +19,8 @@ if (l < string_length(text[next])) {
 
 		if (voice == s_dynamo_1) {
 			this_time = choose(s_dynamo_1, s_dynamo_2, s_dynamo_3, s_dynamo_4, s_dynamo_5);
-			audio_play_sound(this_time, 0, false);
-		} else audio_play_sound(voice, 0, false);
+			audio_play_sound(this_time, 10, false);
+		} else audio_play_sound(voice, 10, false);
 		
 		
 	} else if (l == 1 && string_length(text[next]) < 4 && string_length(text[next]) > 0) {

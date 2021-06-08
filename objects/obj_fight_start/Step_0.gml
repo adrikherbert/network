@@ -37,6 +37,7 @@ switch (trigger) {
 		count = 0;
 		break;
 	case 8:
+		if (no_text) instance_destroy(text);
 		audio_play_sound(music, -10, true);
 		
 		trigger++;

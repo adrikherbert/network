@@ -270,36 +270,22 @@ if (dotalk) {
 	switch (dialogue) {
 		case 0:
 			box1 = instance_create_depth(0, 0, 0, obj_textbox);
-			
-			box1.y = 300;
-			
-			box1.voice = s_bit_ding;
-			box1.text[0] = "Oh, I'm sorry!! You've never battled before?? Where are my manners!!";
-			box1.text[1] = "First things first... You can use the left and right arrows to select a fighter.";
-			box1.text[2] = "Looks like you're by yourself this time. Darn.";
-			box1.text[3] = "If I wasn't instructed to kill you, I'd join your team!!!";
-			box1.text[4] = "Anyways, once you select a fighter by pressing enter, you can have them use an item or fight!";
-			box1.text[5] = "You can use the down and up arrow keys to select an option, then press enter again.";
-			box1.text[6] = "Using an item will prevent you from being able to attack, but you'll have to withstand the enemy's shenanigans!";
-			box1.text[7] = "If you choose the fight option, you can use the arrow keys to dodge any bullets, and the spacebar to shoot your own!";
-			box1.text[8] = "This game isn't just a complete rip-off of Undertale...";
-			box1.text[9] = "There are a lot of different kinds of attacks that an enemy can use.";
-			box1.text[10] = "It's your job to figure out how to beat us!";
-			box1.text[11] = "So, uh...";
-			box1.text[12] = "Enough talk, let's battle!";
+			box1.voice = s_popup_voice;
+			box1.text[0] = "You're it!";
 			
 			dialogue++;
 			break;
 	}
 	
 	if (dialogue == 1 && keyboard_check_pressed(vk_space)) {
-		if (box1.next < 12) {
+		if (box1.next < 0) {
 			box1.next++;
 			box1.l = 0;
 		} else {
 			instance_destroy(box1);
 			dotalk = false;
 			activate = true;
+			draw = true;
 		}
 	}
 }

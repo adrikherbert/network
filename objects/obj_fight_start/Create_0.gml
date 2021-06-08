@@ -7,5 +7,6 @@ count = 0;
 music = s_fight_music;
 fight_place = R_Fight_Bit;
 cam = noone;
+no_text = false;
 music_wait = 20;
 leave_wait = 60;
